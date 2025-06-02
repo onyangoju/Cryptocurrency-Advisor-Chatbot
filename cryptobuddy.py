@@ -1,8 +1,6 @@
-# 1. Chatbot Personality
 bot_name = "CryptoBuddy"
 bot_tone = "Hey there! Let’s find you a green and growing crypto! 🌱🚀"
 
-# 2. Predefined Crypto Data
 crypto_db = {  
     "Bitcoin": {  
         "price_trend": "rising",  
@@ -24,12 +22,10 @@ crypto_db = {
     }  
 }
 
-# 3 & 4. Chatbot Logic & Advice Rules
 def crypto_advice(user_query):
     query = user_query.lower()
 
     if "trending up" in query or "price rising" in query or "long-term growth" in query:
-        # Recommend coins with rising price trend and high market cap
         candidates = [coin for coin, data in crypto_db.items() if data["price_trend"] == "rising" and data["market_cap"] == "high"]
         if candidates:
             return f"{candidates[0]} is trending up with a strong market cap! 🚀"
@@ -37,7 +33,6 @@ def crypto_advice(user_query):
             return "No top-tier rising coins found right now, but Cardano is rising with medium market cap and good sustainability!"
     
     if "most sustainable" in query or "eco-friendly" in query or "green" in query:
-        # Recommend coin with highest sustainability score and low energy use
         sustainable_coins = {coin: data["sustainability_score"] for coin, data in crypto_db.items() if data["energy_use"] == "low" and data["sustainability_score"] > 7/10}
         if sustainable_coins:
             best_coin = max(sustainable_coins, key=sustainable_coins.get)
@@ -46,7 +41,6 @@ def crypto_advice(user_query):
             return "Currently, no coins meet top sustainability criteria, but Cardano is a good option!"
 
     if "best overall" in query or "recommend" in query:
-        # Prioritize rising trend, high market cap, and sustainability
         best_score = -1
         best_coin = None
         for coin, data in crypto_db.items():
@@ -69,7 +63,6 @@ def crypto_advice(user_query):
 
     return "Sorry, I didn't quite catch that. Can you ask about trending, sustainable, or recommended cryptos?"
 
-# 5. Test the bot
 def chat():
     print(f"{bot_name}: {bot_tone}")
     while True:
@@ -80,5 +73,4 @@ def chat():
         reply = crypto_advice(user_input)
         print(f"{bot_name}: {reply}")
 
-# Run the chatbot
 chat()
