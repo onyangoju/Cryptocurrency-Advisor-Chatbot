@@ -10,7 +10,7 @@ What You’ll Learn
 ✅ How to design conversational logic.
 ✅ Simple data analysis for crypto trends.
 
-Tools & Resources
+# Tools & Resources
 
 Language: Python (beginner-friendly).
 
@@ -20,7 +20,7 @@ Data: Predefined crypto datasets (provided below).
 
 Platform: Code in Google Colab, Jupyter Notebook, or any IDE.
 
- Stretch Goals (Optional)
+# Stretch Goals (Optional)
 
 API Integration: Pull real-time data using CoinGecko’s free API.
 
@@ -28,7 +28,7 @@ NLP: Use NLTK to handle more natural language queries.
 
 Ethics Alert: Add a disclaimer like “Crypto is risky—always do your own research!”
 
-Submission
+# Submission
 
 Share your GitHub repo (include Intro Readme,  screenshots  of the chatbot and .py files) to finish the assignment.
 
@@ -36,7 +36,7 @@ Screen record yourself interacting with the chatbot for 30 seconds and share on 
 
 Write a 50-word summary: “How does this chatbot mimic basic AI decision-making?”. Share this plus a screenshot with your peer group on the Groups tab of the LMS. 
 
-Why You’ll Love This
+# Why You’ll Love This
 
 No complex math—just logic + creativity!
 
