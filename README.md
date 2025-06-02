@@ -1,47 +1,43 @@
-# Cryptocurrency-Advisor-Chatbot
+# CryptoBuddy - A Rule-Based Crypto Investment Chatbot
 
-Objective
+## Introduction
 
-Create a rule-based chatbot that analyzes cryptocurrency data and provides investment advice based on profitability (e.g., price trends) and sustainability (e.g., energy efficiency, project viability).
+CryptoBuddy is a beginner-friendly, rule-based chatbot designed to provide simple investment advice on cryptocurrencies. It analyzes predefined cryptocurrency data to offer recommendations based on two key factors:
 
-What You’ll Learn
+- **Profitability:** Evaluates price trends and market capitalization to suggest coins with strong growth potential.
+- **Sustainability:** Assesses energy usage and sustainability scores to promote eco-friendly and viable projects.
 
-✅ Basics of AI-driven decision-making.
-✅ How to design conversational logic.
-✅ Simple data analysis for crypto trends.
+Built using Python, CryptoBuddy demonstrates basic AI-driven decision-making and conversational logic with easy-to-understand if-else conditions. It is ideal for learning how AI chatbots can analyze data and interact with users to guide investment decisions.
 
-# Tools & Resources
+---
 
-Language: Python (beginner-friendly).
+## Features
 
-Libraries: Use if-else logic or ChatterBot (optional) for conversation flow.
+- Friendly and approachable chatbot personality.
+- Answers questions about trending, sustainable, and recommended cryptocurrencies.
+- Uses a simple dataset with Bitcoin, Ethereum, and Cardano as examples.
+- Rule-based logic for profitability and sustainability advice.
+- Runs in any Python environment (CMD, Jupyter, Google Colab).
 
-Data: Predefined crypto datasets (provided below).
+---
 
-Platform: Code in Google Colab, Jupyter Notebook, or any IDE.
+## How to Use
 
-# Stretch Goals (Optional)
+1. Run the `cryptobuddy.py` script.
+2. Ask questions like:
+   - "Which crypto is trending up?"
+   - "What’s the most sustainable coin?"
+   - "Which crypto should I buy for long-term growth?"
+3. Type `exit` to quit the chatbot.
 
-API Integration: Pull real-time data using CoinGecko’s free API.
+---
 
-NLP: Use NLTK to handle more natural language queries.
+## Tools & Technologies
 
-Ethics Alert: Add a disclaimer like “Crypto is risky—always do your own research!”
+- Language: Python
+- Environment: Any Python IDE or command line interface
+- Libraries: None required (built using basic Python constructs)
 
-# Submission
+---
 
-Share your GitHub repo (include Intro Readme,  screenshots  of the chatbot and .py files) to finish the assignment.
-
-Screen record yourself interacting with the chatbot for 30 seconds and share on the PLP Academy Community on the LMS.
-
-Write a 50-word summary: “How does this chatbot mimic basic AI decision-making?”. Share this plus a screenshot with your peer group on the Groups tab of the LMS. 
-
-# Why You’ll Love This
-
-No complex math—just logic + creativity!
-
-You’ll see how even simple AI can solve real-world problems.
-
-Perfect for crypto newbies and coding enthusiasts alike!
-
-Need help? Post questions in our community platform—we’re all learning together! 
+Feel free to explore, modify, and expand CryptoBuddy to suit your crypto investment learning journey!
